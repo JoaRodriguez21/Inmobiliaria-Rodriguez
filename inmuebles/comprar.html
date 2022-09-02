@@ -8,6 +8,7 @@
     <meta name="description" content="Esta sitio web es de una inmobiliaria ficticia creada para fines educativos, para un proyecto de Coder House">
     <title>Comprar</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
 </head>
 <body background="../img/img-fondo2.jpeg">
@@ -35,7 +36,7 @@
             <!-- ARTICULO CASAS -->
 
             <article class="flexMainArticles">
-                <div class="flexDivV">
+                <div class="flexDivV" data-aos="fade-up">
                     <h2 class="textCenter">Casas en venta.</h2>
                     <p class="textCenter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -43,7 +44,7 @@
                     consequat.</p>
                 </div>
                 <picture>
-                    <div>
+                    <div data-aos="fade-up" data-aos-duration="1500">
                         <a class="cajaImagenCasas" href="inmuebles/comprar.html"><img src="../img/casa-portada.jpg"></a>
                     </div>
                 </picture>
@@ -52,7 +53,7 @@
             <!-- ARTICULO OFICINAS -->
 
             <article class="flexMainArticles">
-                    <div class="flexDivV">
+                    <div class="flexDivV" data-aos="fade-up">
                         <h2 class="textCenter">Oficinas en venta.</h2>
                         <p class="textLeft">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -60,7 +61,7 @@
                         consequat.</p>
                     </div>
                     <picture>
-                        <div>
+                        <div data-aos="fade-up" data-aos-duration="1500">
                             <a href="inmuebles/comprar.html"><img src="../img/oficinas-portada.jpg"></a>
                         </div>
                     </picture>
@@ -69,7 +70,7 @@
             <!-- ARTICULO DEPERTAMENTOS -->
 
             <article class="flexMainArticles">
-                <div class="flexDivV">
+                <div class="flexDivV" data-aos="fade-up">
                     <h2 class="textCenter">Departamentos en venta.</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -77,7 +78,7 @@
                     consequat. .</p>
                 </div>
                 <picture>
-                    <div>
+                    <div data-aos="fade-up" data-aos-duration="1500">
                         <a href="inmuebles/comprar.html"><img src="../img/departamentos-portada.png"></a>
                      </div>
                 </picture>
@@ -114,12 +115,20 @@
                     </a> 
                 </ul>
             </div>
-            <aside class="asideFooter">
+            <aside class="asideFooter" data-aos="fade-left">
                 <h3>Comunicarse con un asesor</h3><a href="https://api.whatsapp.com/send?phone=2612575199" target="_blank">
                 <img src="../img/chat-asesor.png" alt="comunicarse con un asesor">
                 </a>
             </aside>
         </section>
      </footer>
+
+     <!-- SCRIPTS -->
+
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
     </body>
 </html>

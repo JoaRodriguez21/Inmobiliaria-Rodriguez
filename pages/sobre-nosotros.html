@@ -8,6 +8,7 @@
     <meta name="description" content="Esta sitio web es de una inmobiliaria ficticia creada para fines educativos, para un proyecto de Coder House">
     <title>Sobre nosotros</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
 </head>
 <body background="../img/fondo.png">
@@ -35,11 +36,16 @@
 
         <section id="contenedorSN">
                 <picture>
-                    <img src="../img/empresario.jpeg" alt="Nosotros">
+                    <img 
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    src="../img/empresario.jpeg" alt="Nosotros">
                 </picture>
             <div class="flexSN">
-                <h4>¿Quienes somos?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                <h4 data-aos="fade-up"
+                    data-aos-duration="1200">¿Quienes somos?</h2>
+                <p data-aos="fade-up"
+                    data-aos-duration="900">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -51,10 +57,14 @@
         <!-- IFRAME GOOGLE MAPS -->
 
         <section id="contenedor-mapa">
-            <div>
+            <div data-aos="fade-up"
+                    data-aos-duration="1200">
                 <h5>Nuestras oficinas</h5>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5969.562071715778!2d-68.84241888418617!3d-32.89014535554219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0907b3f6324b%3A0x501d1521958dfb21!2sPlaza%20Independencia!5e0!3m2!1ses-419!2sar!4v1659676189825!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5969.562071715778!2d-68.84241888418617!3d-32.89014535554219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0907b3f6324b%3A0x501d1521958dfb21!2sPlaza%20Independencia!5e0!3m2!1ses-419!2sar!4v1659676189825!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
 
@@ -86,12 +96,20 @@
                     </a> 
                 </ul>
             </div>
-            <aside class="asideFooter">
+            <aside class="asideFooter" data-aos="fade-left">
                 <h3>Comunicarse con un asesor</h3><a href="https://api.whatsapp.com/send?phone=2612575199" target="_blank">
                 <img src="../img/chat-asesor.png" alt="comunicarse con un asesor">
                 </a>
             </aside>
         </section>
      </footer>
+
+     <!-- SCRIPTS -->
+
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
 </body>
 </html>

@@ -8,6 +8,7 @@
     <meta name="description" content="Esta sitio web es de una inmobiliaria ficticia creada para fines educativos, para un proyecto de Coder House">
     <title>Alquilar</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
 </head>
 <div class="gridLayoutA grid">
@@ -37,11 +38,11 @@
 
                 <article class="flexMainArticles articleHeight articleHeight2">
                     <picture>
-                        <div>
+                        <div data-aos="fade-up" data-aos-duration="1500">
                             <a class="cajaImagenCasas" href="inmuebles/comprar.html"><img class="imgComprar imgResponsive imgResponsive2 imgResponsive3" src="../img/casa-portada.jpg"></a>
                         </div>
                     </picture>
-                    <div class="flexDivV divPadding divWidth80">
+                    <div data-aos="fade-up" class="flexDivV divPadding divWidth80">
                         <h2 class="textCenter tituloA tituloA2 tituloA3">Casas en alquiler.</h2>
                         <p class="textCenter subTitulo subTitulo2 subTitulo3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -54,11 +55,11 @@
 
                 <article class="flexMainArticles articleHeight articleHeight2">
                         <picture>
-                            <div>
+                            <div data-aos="fade-up" data-aos-duration="1500">
                                 <a href="inmuebles/comprar.html"><img class="imgComprar imgResponsive imgResponsive2 imgResponsive3" src="../img/oficinas-portada.jpg"></a>
                             </div>
                         </picture>
-                         <div class="flexDivV divPadding divWidth80">
+                         <div class="flexDivV divPadding divWidth80" data-aos="fade-up">
                             <h2 class="textCenter tituloA tituloA2 tituloA3">Oficinas en alquiler.</h2>
                             <p class="textLeft subTitulo subTitulo2 subTitulo3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -71,11 +72,11 @@
 
                 <article class="flexMainArticles articleHeight articleHeight2">
                     <picture>
-                        <div>
+                        <div data-aos="fade-up" data-aos-duration="1500">
                             <a href="inmuebles/comprar.html"><img class="imgComprar imgResponsive imgResponsive2 imgResponsive3" src="../img/departamentos-portada.png"></a>
                         </div>
                     </picture>
-                    <div class="flexDivV divPadding divWidth80">
+                    <div class="flexDivV divPadding divWidth80" data-aos="fade-up">
                         <h2 class="textCenter tituloA tituloA2 tituloA3">Departamentos en alquiler.</h2>
                         <p class="subTitulo subTitulo2 subTitulo3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -114,13 +115,24 @@
                         </a> 
                     </ul>
                 </div>
-                <aside class="asideFooter">
+                <aside class="asideFooter" data-aos="fade-left">
                     <h3>Comunicarse con un asesor</h3><a href="https://api.whatsapp.com/send?phone=2612575199" target="_blank">
                     <img src="../img/chat-asesor.png" alt="comunicarse con un asesor">
                     </a>
                 </aside>
             </section>
          </footer>
+
+        <!-- SCRIPTS -->
+
+         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+
+
+
         </body>
     </div>
 </html>

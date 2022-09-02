@@ -8,6 +8,7 @@
     <meta name="description" content="Esta sitio web es de una inmobiliaria ficticia creada para fines educativos, para un proyecto de Coder House">
     <title>Contacto</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
 </head>
 <body background="../img/fondo.png">
@@ -34,7 +35,9 @@
 
                 <!-- FORMULARIO DE CONTACTO -->
 
-                <form class="flexForm">
+                <form class="flexForm" 
+                    data-aos="fade-up"
+                    data-aos-duration="800">
                     <div>
                         <label for="nombre">Nombre del inquilino:</label>
                         <input type="text" id="nombre" placeholder="Ingrese su nombre">
@@ -60,16 +63,24 @@
             <!-- TEXTO DE INFORMACIÓN -->
 
             <div class="flexTextInfo">
-                <div>
+                <div 
+                    data-aos="fade-up"
+                    data-aos-duration="800">
                 <h2>¡Escribinos! ¡te ayudaremos a encontrar tu vivienda ideal!</h2>
                 </div>
-                <div>
+                <div
+                    data-aos="fade-up"
+                    data-aos-duration="1000">
                 <h3>podes llamarnos al siguiente numero:</h3>
                 </div>
-                <div>
+                <div
+                    data-aos="fade-up"
+                    data-aos-duration="1200">
                 <h2>+54 9 261257XXXX</h2>
                 </div>
-                <div>
+                <div
+                    data-aos="fade-up"
+                    data-aos-duration="1400">
                 <h3>O comunicate pr whatsapp tocando el siguiente boton:</h3>
                 </div>
                 <a href="https://api.whatsapp.com/send?phone=2612575199" target="_blank">
@@ -80,9 +91,15 @@
             <!-- TESTIMONIOS -->
 
         </section>
-            <h2 class="textTituloTestimonio">Testimonios de nuestros clientes</h2>
+            <h2 class="textTituloTestimonio" data-aos="fade-right" data-aos-duration="1500">Testimonios de nuestros clientes</h2>
         <section id="contenedorTestimonios">
-                <div class="flexForm">
+                <div class="flexForm" 
+
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="300"
+                    data-aos-offset="0">
+
                     <img  class="imgTestimonios" src="../img/testimonios/mujer-ana.jpg">
                     <h3 class="textTestimonio">Ana Alonso</h3>
                     <p class="textTestimonioP">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod
@@ -91,7 +108,13 @@
                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non.</p>
                 </div>
-                <div class="flexForm">
+                <div class="flexForm"
+
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="500"
+                    data-aos-offset="0">
+
                     <img class="imgTestimonios" src="../img/testimonios/hombre-alfonso.jpg">
                     <h3 class="textTestimonio">Alfonso Gomez</h3>
                     <p class="textTestimonioP">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod
@@ -100,7 +123,13 @@
                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non.</p>
                 </div>
-                <div class="flexForm">
+                <div class="flexForm"
+
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="700"
+                    data-aos-offset="0">
+
                     <img  class="imgTestimonios" src="../img/testimonios/mujer-rebeca.jpg">
                     <h3 class="textTestimonio">Rebeca Martinez</h3>
                     <p class="textTestimonioP">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod
@@ -140,12 +169,20 @@
                     </a> 
                 </ul>
             </div>
-            <aside class="asideFooter">
+            <aside class="asideFooter" data-aos="fade-left">
                 <h3>Comunicarse con un asesor</h3><a href="https://api.whatsapp.com/send?phone=2612575199" target="_blank">
                 <img src="../img/chat-asesor.png" alt="comunicarse con un asesor">
                 </a>
             </aside>
         </section>
      </footer>
+
+    <!-- SCRIPTS -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
 </body>
 </html>

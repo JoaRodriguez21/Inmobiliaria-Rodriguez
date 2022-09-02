@@ -193,7 +193,6 @@ main section article a{
 #contenedorComprar{
 	margin: 0px;
 	display: flex;
-	padding: 100px;
 	flex-direction: column;
 	justify-content: center;
 }
@@ -213,6 +212,7 @@ main section article a{
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+	padding: 100px;
 }
 
 .imgComprar{

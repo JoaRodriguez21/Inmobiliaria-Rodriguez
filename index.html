@@ -8,13 +8,14 @@
     <meta name="description" content="Esta sitio web es de una inmobiliaria ficticia creada para fines educativos, para un proyecto de Coder House">
     <title>Proyecto inmobiliaria</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 </style> 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-</style> 
+</style>
 </head>
 <div class="gridLayoutIndex" class="grid">
     <body background="img/img-fondo.jpg">
@@ -51,11 +52,19 @@
                 <!-- botones -->
 
                 <article class="buttons">
-                    <a href="inmuebles/comprar.html"><span>Comprar</span></a>
-                    <a href="inmuebles/Alquilar.html"><span>Alquilar</span></a>
+                    <a data-aos="fade-right" href="inmuebles/comprar.html"><span>Comprar</span></a>
+                    <a data-aos="fade-left" href="inmuebles/Alquilar.html"><span>Alquilar</span></a>
                 </article>
             </section>
         </main>
+
+        <!-- SCRIPTS -->
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
     </body>
 </div>
 </html>
