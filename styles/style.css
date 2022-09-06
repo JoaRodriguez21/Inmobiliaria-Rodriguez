@@ -80,9 +80,12 @@ h2{
 	align-items: center;
 }
 
+.dropDown{
+	font-size: 2rem;
+}
 nav{
 	background-color: var(--color-nav);
-	height: 100px;
+	height: 80px;
 }
 
 nav section img{
