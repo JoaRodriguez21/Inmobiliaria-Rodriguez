@@ -300,6 +300,10 @@ justify-content: center;
 	font-family: var(--font-title);
 }
 
+.textAreaForm{
+	width: 50px;
+}
+
 .flexTextInfo{
 	display: flex;
 	flex-direction: column;
@@ -798,6 +802,7 @@ footer div ul li a{
 
 	.articleHeight2{
 		height: 1000PX;
+		padding: 30px;
 	}
 
 	.tituloA2{
@@ -853,6 +858,10 @@ footer div ul li a{
 
 		font-size: 1rem;
 
+	}
+
+	.articlePadding{
+		padding: 20px;
 	}
 
 }	
