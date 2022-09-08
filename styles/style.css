@@ -150,9 +150,9 @@ padding-top: 100px;
 /*Box modeling*/
 
 
-			/*INDEX ALQUILAR Y COMPRAR*/
+			/*MAIN ALQUILAR Y COMPRAR*/
 
-/*Contenedores*/
+/*Carrusel*/
 .contenedorCA{
 	height: 800px;
 
@@ -178,7 +178,105 @@ padding-top: 100px;
 	border-bottom: 2px;
 }
 
-/*Clases*/
+/*Galeria de img*/
+
+#contenedorCasas{
+	background-color: rgba(30, 30, 30, 1.0);
+	height: 100%;
+	padding-top: 100px;
+}
+
+.tituloGaleria{
+	text-align: center;
+	border-bottom: 2px;
+	color: var(--color-nav);
+	font-family: var(--font-principal);
+	padding-top: 30px;
+
+}
+
+.contGaleriaProp{
+	padding: 50px;
+}
 
 
-/*Box modeling*/
+.galeriaFlex{
+	justify-content: space-evenly;
+	align-content: space-around;
+
+}
+
+.imgPequeñas{
+	height: 350px;
+	width: 500px;
+	padding: 20px;
+}
+
+/*MAIN CONTACTO*/
+
+#contenedorContacto{
+	padding: 50px;
+	background-color: rgba(30, 30, 30, 1.0);
+	height: 100%;
+	justify-content: space-evenly;
+	align-content: center;
+}
+
+.paddingContacto{
+	padding: 150px 0px;
+	background-color: rgba(30, 30, 30, 1.0);
+}
+
+/*Formulario boostrap*/
+
+.formContacto{
+	padding-top: 100px;
+}
+
+.textForm{
+	font-family: var(--font-title);
+	font-size: 3rem;
+	color: var(--color-title);
+}
+
+/*Informacion adicional*/
+
+.textInfo{
+	padding-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.tituloP{
+	font-family: var(--font-title);
+	font-size: var(--text-title);
+	color: var(--color-nav);
+	padding-bottom: 20px;
+}
+
+.tituloS{
+font-family: var(--font-principal);
+font-size: var(--text-subtitle);
+color: var(--color-nav);
+padding: 20px 0px;
+}
+
+.numeroC{
+	font-size: var(--text-subtitle);
+	font-family: var(--font-title);
+	color: var(--color-nav);
+	padding: 5px 0px;
+	text-align: center;
+}
+
+.wpp{
+	width: 130px;
+	height: 80px;
+}
+.wpp2{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}

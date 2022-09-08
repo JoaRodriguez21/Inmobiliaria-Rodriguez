@@ -52,10 +52,12 @@
     <!-- MAIN CONTACTO -->
 
     <main>
-        <section id="contenedorContacto">
+        <div class="paddingContacto">
+        <section id="contenedorContacto" class="row">
 
                 <!-- FORMULARIO DE CONTACTO BOOSTRAP-->
-            <form class="flexForm card" 
+            <div class="formContacto col-xs-12 col-sm-12 col-md-12 col-lg-5">
+            <form class="card" 
                     data-aos="fade-up"
                     data-aos-duration="800">
                 <div class="mb-3">
@@ -64,72 +66,51 @@
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label textForm">Nombre</label>
-                    <input class="textAreaForm" type="name" name="nombre" placeholder="Nombre">
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label"></label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Nombre..." rows="2"></textarea>
+                    </div>
                 </div>
                 <div class="mb-3">
                   <label for="exampleFormControlTextarea1" class="form-label textForm">Su mensaje:</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
             </form>
-
-
-
-                <!-- <form class="flexForm" 
-                    data-aos="fade-up"
-                    data-aos-duration="800">
-                    <div>
-                        <label for="nombre">Nombre del inquilino:</label>
-                        <input type="text" id="nombre" placeholder="Ingrese su nombre">
-                    </div>
-                    <div>
-                        <label for="nombre">Correo electronico:</label>
-                        <input type="Email" id="Email" placeholder="Ingrese su Email">
-                    </div>
-                    <div>
-                        <label for="nombre">Asunto:</label>
-                        <input type="text" id="asunto" placeholder="Ingrese el asunto">
-                    </div>
-                    <div> 
-                        <label for="nombre">Dejanos tu mensaje:</label>
-                        <textarea name="mensaje" id="comentario" placeholder="Mensaje..." cols="30" rows="10"></textarea>
-                    </div>
-                    <div>
-                        <input type="reset" value="Cancelar">
-                        <input type="submit" value="Enviar">
-                    </div>
-                </form> -->
+            </div>
 
             <!-- TEXTO DE INFORMACIÓN -->
 
-            <div class="flexTextInfo">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 textInfo">
                 <div 
                     data-aos="fade-up"
                     data-aos-duration="800">
-                <h2>¡Escribinos! ¡te ayudaremos a encontrar tu vivienda ideal!</h2>
+                <h2 class="tituloP">¡Escribinos! ¡te ayudaremos a encontrar tu vivienda ideal!</h2>
                 </div>
                 <div
                     data-aos="fade-up"
                     data-aos-duration="1000">
-                <h3>podes llamarnos al siguiente numero:</h3>
+                <h3 class="tituloS">podes llamarnos al siguiente numero:</h3>
                 </div>
                 <div
                     data-aos="fade-up"
                     data-aos-duration="1200">
-                <h2>+54 9 261257XXXX</h2>
+                <h2 class="numeroC">+54 9 261257XXXX</h2>
                 </div>
                 <div
                     data-aos="fade-up"
                     data-aos-duration="1400">
-                <h3>O comunicate pr whatsapp tocando el siguiente boton:</h3>
+                <h3 class="tituloS">O comunicate por whatsapp tocando el siguiente boton:</h3>
                 </div>
-                <a href="https://api.whatsapp.com/send?phone=2612575199" target="_blank">
-                <img src="../img/chat-asesor.png" alt="comunicarse con un asesor">
-                </a>
+                <div 
+                    data-aos="fade-up"
+                    data-aos-duration="2500">
+                    <a class="wpp2" href="https://api.whatsapp.com/send?phone=2612575199" target="_blank">
+                    <img class="wpp" src="../img/whatsappicon.png" alt="comunicarse con un asesor">
+                    </a>
+                </div>
             </div>
-
-            <!-- TESTIMONIOS -->
-
         </section>
+    </div>
             <h2 class="textTituloTestimonio" data-aos="fade-right" data-aos-duration="1500">Testimonios de nuestros clientes</h2>
         <section id="contenedorTestimonios">
                 <div class="flexForm" 
