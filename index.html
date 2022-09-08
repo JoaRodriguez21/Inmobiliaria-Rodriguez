@@ -23,14 +23,14 @@
 
         <!-- NAV BOOSTRAP -->
 
-<nav class="navbar navbar-expand-lg bg-light botonera">
+<nav class="navbar navbar-expand-lg navColor">
   <div class="container-fluid">
     <a href="index.html"><img src="img/logoempresa.png"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav m-auto mb-4 mb-lg-0 ulNav float-end">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
             </li>
@@ -51,46 +51,30 @@
                 <a class="nav-link" href="pages/sobre-nosotros.html">Sobre Nosotros</a>
             </li>
       </ul>
+       <button class="btn btn-outline-success me-2 botonLlamar" type="button">Comunicarse con un asesor</button>
     </div>
   </div>
 </nav>
 
-        <!-- nav -->
+        <!-- MAIN INDEX -->
 
-<!--         <nav id="contenedor-nav" class="flexNav grid botonera responsiveMobileNav">
-                <section>
-                    <a href="index.html"><img src="img/logoempresa.png"></a>
-                </section>
-                <section class="botoneraNone">
-                    <ul class="flexUl">
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="inmuebles/alquilar.html">Alquilar</a></li>
-                        <li><a href="inmuebles/comprar.html">Comprar</a></li>
-                        <li><a href="pages/contacto.html">Contacto</a></li>
-                        <li><a href="pages/sobre-nosotros.html">Sobre Nosotros</a></li>
-                    </ul>
-                </section>
-        </nav> -->
-        <header class="headerIndex grid header">
-            <p>contactar a un asesor 261257XXXX</p>
-        </header>
-
-        <!-- main -->
-
-        <main id="contenedor" class="titulo paddingBig paddingSmall">
-            <section>
-                <div class="flexMain" >
-                    <h1 class="textTitleResponsive">¡Encontrá tu futura vivienda con nosotros!</h1>
-                    <h2 class="textSubResponsive">Las mejores propiedades al alcance de tu mano</h2>
+        <main id="" class="">
+            <section id="contenedorIndex" class="indexModeling">
+                <div class="tituloFlex" >
+                    <h1 class="h1Modeling">¡Encontrá tu futura vivienda con nosotros!</h1>
+                    <h2 class="h2Modeling">Las mejores propiedades al alcance de tu mano</h2>
                 </div>
 
                 <!-- botones Boostrap-->
 
-                <article class="buttons">
-                    <a href="inmuebles/comprar.html"><button type="button" class="btn btn-outline-dark fade-right buttonsBoostrap">Comprar</button></a>
-                    <a href="inmuebles/alquilar.html"><button type="button" class="btn btn-outline-dark fade-right buttonsBoostrap">Alquilar</button></a>
-
-                </article>
+                <div id="contenedorBotonesIndex">
+                    <a href="inmuebles/comprar.html"><button type="button" class="btn btn-outline-dark fade-right botonesIndex">Comprar</button></a>
+                    <a href="inmuebles/alquilar.html"><button type="button" class="btn btn-outline-dark fade-right botonesIndex">Alquilar</button></a>
+                </div>
+                <div class="whatsappIndex">
+                    <a href="https://api.whatsapp.com/send?phone=2612575199" target="_blank">
+                    <img class="imgWhatsappIndex" src="img/whatsappicon.png" alt="comunicarse con un asesor">
+                </div>
             </section>
         </main>
 
