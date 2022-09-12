@@ -114,12 +114,12 @@ p{
 	flex-wrap: wrap;
 }
 
-#contenedorBotonesIndex{
+/*#contenedorBotonesIndex{
 	display: flex;
 	justify-content: space-evenly;
 	flex-direction: row;
 	padding: 0px 400px 200px 30px ;
-}
+}*/
 
 /*Clases*/
 
@@ -133,19 +133,31 @@ p{
 	flex-direction: column;
 	justify-content: center;
 	flex-wrap: wrap;
+
 }
 
 .h1Modeling{
 	padding-top: 100px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
 }
 
 .h2Modeling{
 	padding: 50px 0px;
 }
 
+.contenedorBotones{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	padding: 0px 400px 200px 30px ;
+}
+
 .botonesIndex{
-	font-size: 2rem;
+	font-size: 3rem;
 	background-color: var(--color-nav);
+	margin: 10px;
+
 }
 
 .whatsappIndex{
@@ -403,4 +415,29 @@ footer div ul li a{
 	font-size: var(--text-big);
 	font-family: var(--font-principal);
 	color: var(--color-white);
+}
+
+			/* BREACKPOINTS - MEDIA QUERIES */
+
+	/*INDEX*/
+
+@media screen and (max-width: 720px){
+
+	.breackTitulo{
+		font-size: var(--text-subtitle);
+		text-align: center;
+	}
+
+	.breackSub{
+		font-size: var(--text-big);
+		text-align: center;
+	}
+
+	.breackContBotones{
+		justify-content: center;
+		align-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding: 0px;
+	}
 }
