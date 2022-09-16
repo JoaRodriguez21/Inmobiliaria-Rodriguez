@@ -1,0 +1,65 @@
+//Carrusel
+
+.contenedorCA{
+	height: 800px;
+
+}
+
+.alturaImgCarrusel{
+	height: 860px;
+}
+
+.tituloImgCarrusel{
+    text-align: center;
+	font-size: $text-title;
+	font-family: $font-principal;
+	color: $color-title;
+	border-bottom: 2px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+}
+
+.pImgCarrusel{
+	font-size: $text-big;
+	font-family: $font-principal;
+	color: $color-title;
+	border-bottom: 2px;
+}
+
+//Galeria de img
+
+#contenedorCasas{
+	background-color: $color-gris;
+	height: 100%;
+	padding-top: $padding-xl;
+}
+
+.tituloGaleria{
+	text-align: center;
+	border-bottom: 2px;
+	color: $color-nav;
+	font-family: $font-principal;
+	padding: 30px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: $color-nav;
+	margin: 0px 30px;
+
+}
+
+.contGaleriaProp{
+	padding: 50px;
+}
+
+
+.galeriaFlex{
+	justify-content: space-evenly;
+	align-content: space-around;
+
+}
+
+.imgPequeñas{
+	height: 350px;
+	width: 500px;
+	padding: 20px;
+}

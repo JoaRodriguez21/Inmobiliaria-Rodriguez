@@ -1,0 +1,84 @@
+//import fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+//vars tamaños texto
+
+$text-title: 4.5rem;
+$text-subtitle: 3rem;
+$text-big: 2.5rem;
+$text-mid: 1.8rem;
+$text_small: 1.5rem;
+
+// vars fonts family
+
+$font-principal: 'Lato', sans-serif;
+$font-title: 'Libre Baskerville', serif;
+
+//vars colores
+
+$color-title: rgba(22, 11, 7, 1.0);
+$color-white: rgba(255, 255, 255, 1.0);
+$color-black: rgba(0, 0, 0, 1.0);
+$color-nav: rgba(230, 230, 230, 0.8);
+$color-footer: rgba(204, 163, 135, 0.9);
+$color-gris: rgba(30, 30, 30, 1.0);
+
+//vars spacings
+
+$spacing-large: 6rem;
+$spacing-mid: 3rem;
+$spacing-small: 2rem;
+$spacing-min: 1.5rem;
+
+//paddings
+
+$padding-sm: 50px;
+$padding-md: 80px;
+$padding-xl: 100px;
+
+html{
+    font-size: 62.5%;
+    height: 100%;
+    width: 100%;
+    overflow-x:hidden;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: $font-principal;
+}
+
+body{
+	background-size: 100%;
+}
+
+h1{
+	font-family: $font-title;
+	font-size: $text-title;
+	color: $color-title;
+}
+
+h2{
+	font-family: $font-title;
+	font-size: $text-subtitle;
+	color: $color-title;
+}
+
+h3{
+	font-size: $text-big;
+	font-family: $font-principal;
+	color: $color-title;
+}
+
+h5{
+    text-align: center;
+}
+
+p{
+	font-family: $font-principal;
+	font-size: $text_small;
+	color: $color-black;
+}

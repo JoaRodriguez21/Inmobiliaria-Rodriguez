@@ -1,0 +1,117 @@
+//Contenedores
+
+#contenedorContacto{
+	padding: 50px 10px 50px;
+	background-color: $color-gris;
+	width: 100%;
+	justify-content: space-evenly;
+	align-content: center;
+}
+
+.paddingContacto{
+	padding: 100px 50px;
+	background-color: $color-gris;
+}
+
+//Formulario boostrap
+
+.formContacto{
+	padding-top: 100px;
+}
+
+.textForm{
+	font-family: $font-title;
+	font-size: 3rem;
+	color: $color-title;
+	padding: 20px;
+}
+
+
+//Informacion adicional
+
+.textInfo{
+	padding-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.tituloP{
+	font-family: $font-title;
+	font-size: $text-title;
+	color: $color-nav;
+	padding-bottom: 20px;
+}
+
+.tituloS{
+font-family: $font-principal;
+font-size: $text-subtitle;
+color: $color-nav;
+padding: 20px 0px;
+}
+
+.numeroC{
+	font-size: $text-subtitle;
+	font-family: $font-title;
+	color: $color-nav;
+	padding: 5px 0px;
+	text-align: center;
+}
+
+.wpp{
+	width: 130px;
+	height: 80px;
+}
+.wpp2{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+//Testimonios
+
+#contenedorTestimonios{
+	width: 100%;
+	background-color: $color-white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 100px 0px 100px 0px;
+	width: 100%;
+}
+
+#contenedorCards{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	padding: 10px;
+}
+
+.tituloTestimonio{
+	background-color: $color-nav;
+	font-size: $text-subtitle;
+	font-family: $font-title;
+	color: $color-title;
+	padding: 100px;
+	text-align: center;
+	border-bottom: 2px;
+}
+
+.cardTestimonios{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	flex-direction: initial;
+	height: 350px;
+	width: 500px;
+	margin: 10px;
+}
+
+.imgTestimonios{
+	width: 300px;
+	height: 300px;
+	justify-content: center;
+}
+

@@ -1,0 +1,87 @@
+//Contenedor
+
+#contenedorFooter{
+	padding: 80px 10px 0px 10px;
+	height: 50%;
+	background-color: $color-gris;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	position: absolute;
+	width: 100%;
+}
+
+#contenedorRedes{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+
+#contenedorUlFooter{
+	display: flex;
+	justify-content: center;
+}
+
+//CLASES
+
+
+.textRedes{
+	font-size: $text-big;
+	font-family: $font-principal;
+	color: $color-white;
+}
+
+.asideFooter{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-content: center;
+}
+
+.asideImg{
+	height: 60px;
+	width: 95px;
+}
+
+//BOX MODELING
+
+footer{
+	background-image: url(../img/footer.jpg);
+	width: 100%;
+	position: absolute;
+	height: 100%;
+    
+}
+
+footer{
+
+    div{
+        ul{
+            li{
+                text-decoration: none;
+	            list-style-type: none;
+            }
+        }
+    }
+
+}
+
+footer{
+    div{
+        ul{
+            li{
+                a{
+                    text-decoration: none;
+	                font-size: $text-big;
+	                font-family: $font-principal;
+	                color: $color-white;
+                }
+            }
+        }
+    }
+}

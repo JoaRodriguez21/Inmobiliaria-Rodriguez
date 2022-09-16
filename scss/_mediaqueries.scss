@@ -1,0 +1,53 @@
+//INDEX
+
+@media screen and (max-width: 720px){
+
+	.breackTitulo{
+		font-size: $text-subtitle;
+		text-align: center;
+	}
+
+	.breackSub{
+		font-size: $text-big;
+		text-align: center;
+	}
+
+	.breackContBotones{
+		justify-content: center;
+		align-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding: 0px;
+	}
+}
+
+//PAGINA COMPRAR
+
+@media screen and (max-width: 720px){
+
+	.breackCarrusel{
+		height: 500px;
+		object-fit: cover;
+	}
+}
+
+//PAGINA SOBRE NOSOTROS
+
+@media screen and (max-width: 720px){
+	.breackImgSN{
+		height: 150px;
+		width: 300px;
+	}
+	.breackInframe{
+		height: 300px;
+		width: 400px;
+	}
+}
+
+@media screen and (max-width: 1020px){
+	.breackInframe{
+		height: 300px;
+		width: 400px;
+	}
+	
+}

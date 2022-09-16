@@ -1,0 +1,552 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+html {
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-size: 100%;
+}
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 4.5rem;
+  color: rgb(22, 11, 7);
+}
+
+h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 3rem;
+  color: rgb(22, 11, 7);
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-family: "Lato", sans-serif;
+  color: rgb(22, 11, 7);
+}
+
+h5 {
+  text-align: center;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  align-content: center;
+  background-color: rgba(230, 230, 230, 0.8);
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+}
+
+.ulNav {
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  color: rgb(22, 11, 7);
+}
+
+.dropDown {
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  color: rgb(22, 11, 7);
+}
+
+.botonLlamar {
+  font-size: 1.5rem;
+}
+
+#contenedorFooter {
+  padding: 80px 10px 0px 10px;
+  height: 50%;
+  background-color: rgb(30, 30, 30);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+#contenedorRedes {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+#contenedorUlFooter {
+  display: flex;
+  justify-content: center;
+}
+
+.textRedes {
+  font-size: 2.5rem;
+  font-family: "Lato", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.asideFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.asideImg {
+  height: 60px;
+  width: 95px;
+}
+
+footer {
+  background-image: url(../img/footer.jpg);
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+
+footer div ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+footer div ul li a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-family: "Lato", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+#contenedorIndex {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.indexModeling {
+  height: 99%;
+  width: 100%;
+  padding: 100px 50px 0px 50px;
+}
+
+.tituloFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.h1Modeling {
+  padding-top: 100px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.h2Modeling {
+  padding: 50px 0px;
+}
+
+.contenedorBotones {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 0px 400px 200px 30px;
+}
+
+.botonesIndex {
+  font-size: 3rem;
+  background-color: rgba(230, 230, 230, 0.8);
+  margin: 10px;
+}
+
+.whatsappIndex {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  padding-top: 100px;
+}
+
+.imgWhatsappIndex {
+  height: 80px;
+  width: 130px;
+}
+
+#contenedorInfoServicios {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  padding: 100px;
+  background-color: rgb(30, 30, 30);
+}
+
+.tituloServ {
+  font-size: 4.5rem;
+  font-family: "Libre Baskerville", serif;
+  color: rgb(255, 255, 255);
+  padding-bottom: 60px;
+  margin: 0px 20px;
+  text-align: center;
+}
+
+.subTituloServ {
+  font-size: 1.8rem;
+  font-family: "Lato", sans-serif;
+  color: rgb(255, 255, 255);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  margin: 0px 10pxpx;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.acordeonServ {
+  padding-top: 30px;
+}
+
+.tituloAcordeon {
+  font-size: 2rem;
+  font-family: "Libre Baskerville", serif;
+  color: rgb(22, 11, 7);
+}
+
+.contenidoA {
+  font-size: 1.5rem;
+  color: rgb(22, 11, 7);
+  font-family: "Lato", sans-serif;
+}
+
+#contenedorCotizar {
+  background-color: rgba(230, 230, 230, 0.8);
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+
+.tituloServicios {
+  text-align: center;
+  font-size: 4.5rem;
+  font-family: "Libre Baskerville", serif;
+  color: rgb(22, 11, 7);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  padding: 20px;
+}
+
+.modelingCards {
+  padding: 20px 10px;
+  margin: 10px 0px;
+}
+
+.imgServicios {
+  width: 250px;
+}
+
+#contenedorServicios {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardsServicios {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.contenedorCA {
+  height: 800px;
+}
+
+.alturaImgCarrusel {
+  height: 860px;
+}
+
+.tituloImgCarrusel {
+  text-align: center;
+  font-size: 4.5rem;
+  font-family: "Lato", sans-serif;
+  color: rgb(22, 11, 7);
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.pImgCarrusel {
+  font-size: 2.5rem;
+  font-family: "Lato", sans-serif;
+  color: rgb(22, 11, 7);
+  border-bottom: 2px;
+}
+
+#contenedorCasas {
+  background-color: rgb(30, 30, 30);
+  height: 100%;
+  padding-top: 100px;
+}
+
+.tituloGaleria {
+  text-align: center;
+  border-bottom: 2px;
+  color: rgba(230, 230, 230, 0.8);
+  font-family: "Lato", sans-serif;
+  padding: 30px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: rgba(230, 230, 230, 0.8);
+  margin: 0px 30px;
+}
+
+.contGaleriaProp {
+  padding: 50px;
+}
+
+.galeriaFlex {
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+.imgPequeñas {
+  height: 350px;
+  width: 500px;
+  padding: 20px;
+}
+
+#contenedorContacto {
+  padding: 50px 10px 50px;
+  background-color: rgb(30, 30, 30);
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.paddingContacto {
+  padding: 100px 50px;
+  background-color: rgb(30, 30, 30);
+}
+
+.formContacto {
+  padding-top: 100px;
+}
+
+.textForm {
+  font-family: "Libre Baskerville", serif;
+  font-size: 3rem;
+  color: rgb(22, 11, 7);
+  padding: 20px;
+}
+
+.textInfo {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.tituloP {
+  font-family: "Libre Baskerville", serif;
+  font-size: 4.5rem;
+  color: rgba(230, 230, 230, 0.8);
+  padding-bottom: 20px;
+}
+
+.tituloS {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  color: rgba(230, 230, 230, 0.8);
+  padding: 20px 0px;
+}
+
+.numeroC {
+  font-size: 3rem;
+  font-family: "Libre Baskerville", serif;
+  color: rgba(230, 230, 230, 0.8);
+  padding: 5px 0px;
+  text-align: center;
+}
+
+.wpp {
+  width: 130px;
+  height: 80px;
+}
+
+.wpp2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#contenedorTestimonios {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 100px 0px 100px 0px;
+  width: 100%;
+}
+
+#contenedorCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+}
+
+.tituloTestimonio {
+  background-color: rgba(230, 230, 230, 0.8);
+  font-size: 3rem;
+  font-family: "Libre Baskerville", serif;
+  color: rgb(22, 11, 7);
+  padding: 100px;
+  text-align: center;
+  border-bottom: 2px;
+}
+
+.cardTestimonios {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: initial;
+  height: 350px;
+  width: 500px;
+  margin: 10px;
+}
+
+.imgTestimonios {
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+}
+
+#contenedorSN {
+  background-color: rgba(230, 230, 230, 0.8);
+  height: 860px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.imgSN {
+  height: 300px;
+  width: 500px;
+}
+
+.flexSN {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 50px 10px;
+}
+
+div h4 {
+  text-align: center;
+  font-size: 4.5rem;
+  font-family: "Libre Baskerville", serif;
+  color: rgb(22, 11, 7);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.textSN {
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "Lato", sans-serif;
+  color: rgb(22, 11, 7);
+}
+
+#contenedorMapa {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 300px 50px;
+  height: 100%;
+  background-color: rgb(30, 30, 30);
+}
+
+section div h5 {
+  font-size: 4.5rem;
+  font-family: "Libre Baskerville", serif;
+  color: rgba(230, 230, 230, 0.8);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 720px) {
+  .breackTitulo {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .breackSub {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .breackContBotones {
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .breackCarrusel {
+    height: 500px;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 720px) {
+  .breackImgSN {
+    height: 150px;
+    width: 300px;
+  }
+  .breackInframe {
+    height: 300px;
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .breackInframe {
+    height: 300px;
+    width: 400px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

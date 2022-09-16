@@ -1,0 +1,61 @@
+//Contenedores
+
+#contenedorIndex{
+	display: flex;
+	justify-content: start;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+//Clases
+
+.indexModeling{
+	height: 99%;
+	width: 100%;
+	padding: 100px 50px 0px 50px;
+}
+
+.tituloFlex{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+.h1Modeling{
+	padding-top: 100px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+}
+
+.h2Modeling{
+	padding: 50px 0px;
+}
+
+.contenedorBotones{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	padding: 0px 400px 200px 30px ;
+}
+
+.botonesIndex{
+	font-size: 3rem;
+	background-color: $color-nav;
+	margin: 10px;
+
+}
+
+.whatsappIndex{
+	display: flex;
+	justify-content: flex-end;
+	align-content: flex-end;
+padding-top: 100px;
+}
+
+.imgWhatsappIndex{
+	height: 80px;
+	width: 130px;
+}

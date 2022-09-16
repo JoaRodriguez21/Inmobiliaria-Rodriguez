@@ -1,0 +1,31 @@
+//contenedores
+
+//clases
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-content: center;
+    background-color: $color-nav;
+    border-bottom-style: solid;
+	border-bottom-width: 0.5px;
+}
+
+.ulNav{
+	font-size: 2rem;
+	font-family: $font-principal;
+	color: $color-title;
+}
+
+.dropDown{
+	font-size: 2rem;
+	font-family: $font-principal;
+	color: $color-title;
+
+}
+
+.botonLlamar{
+	font-size: 1.5rem;
+    
+}
