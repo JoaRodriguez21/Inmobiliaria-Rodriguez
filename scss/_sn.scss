@@ -1,14 +1,10 @@
 //informacion
 
 #contenedorSN{
+	@include flex(row,space-evenly,center,wrap);
 	background-color: $color-nav;
 	height: 860px;
 	padding: 50px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-content: center;
 }
 
 .imgSN{
@@ -17,11 +13,7 @@
 }
 
 .flexSN{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-	align-content: center;
-	flex-wrap: wrap;
+	@include flex(column,space-evenly,center,wrap);
 	padding: 50px 10px;
 }
 	
@@ -48,11 +40,7 @@ div{
 //MAPA
 
 #contenedorMapa{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-content: center;
-	flex-wrap: wrap;
+	@include flex(column,center,center,wrap);
 	padding: 300px 50px;
 	height: 100%;
 	background-color: $color-gris;

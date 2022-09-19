@@ -1,6 +1,15 @@
 //Contenedor
 
 #contenedorFooter{
+    @include flex(row,center ,center ,wrap );
+    position: absolute;
+	width: 100%;
+	padding: 80px 10px 0px 10px;
+	height: 50%;
+	background-color: $color-gris;
+}
+
+/* #contenedorFooter{
 	padding: 80px 10px 0px 10px;
 	height: 50%;
 	background-color: $color-gris;
@@ -11,14 +20,10 @@
 	align-content: center;
 	position: absolute;
 	width: 100%;
-}
+} */
 
 #contenedorRedes{
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	flex-direction: row;
-	flex-wrap: wrap;
+	@include flex(row,center,center,wrap);
 	padding: 30px;
 }
 
@@ -37,10 +42,7 @@
 }
 
 .asideFooter{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-    align-content: center;
+	@include flex(column,center,center,wrap);
 }
 
 .asideImg{

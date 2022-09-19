@@ -30,11 +30,8 @@
 //Informacion adicional
 
 .textInfo{
+	@include flex(column,center,center,wrap);
 	padding-top: 30px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-content: center;
 }
 
 .tituloP{

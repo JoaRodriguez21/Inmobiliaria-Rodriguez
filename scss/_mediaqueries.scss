@@ -13,10 +13,7 @@
 	}
 
 	.breackContBotones{
-		justify-content: center;
-		align-content: center;
-		flex-direction: row;
-		flex-wrap: wrap;
+		@include flex(row,center,center,wrap);
 		padding: 0px;
 	}
 }
@@ -45,6 +42,16 @@
 }
 
 @media screen and (max-width: 1020px){
+	.breackInframe{
+		height: 300px;
+		width: 400px;
+	}
+	
+}
+
+//PAGINA SOBRE NOSOTROS (SN)
+
+@media screen and (max-width: px){
 	.breackInframe{
 		height: 300px;
 		width: 400px;

@@ -1,0 +1,37 @@
+//Clases bases
+
+.flex-row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-row-evenly{
+    @extend .flex-row-center;
+    justify-content: space-evenly;
+}
+
+.flex-column-center{
+    @extend .flex-row-center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-column-evenly{
+    @extend .flex-row-center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+//mixins
+
+@mixin flex($FD,$JC,$AC,$FW){
+    display: flex;
+    flex-direction: $FD;
+    justify-content: $JC;
+    align-content: $AC;
+    flex-wrap: $FW;
+}
+//@include flex(FD,JC,AC,FW);
