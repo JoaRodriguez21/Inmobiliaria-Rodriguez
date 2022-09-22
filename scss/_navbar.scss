@@ -3,19 +3,10 @@
 //clases
 nav{
     @include flex(row,space-evenly ,center ,nowrap );
-        background-color: $color-nav;
+        background-color: map-get($map:$paleta-bg , $key:'nav');
         border-bottom-style: solid;
         border-bottom-width: 0.5px;
 }
-/* nav{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-    align-content: center;
-    background-color: $color-nav;
-    border-bottom-style: solid;
-	border-bottom-width: 0.5px;
-}  */
 
 .ulNav{
 	font-size: 2rem;

@@ -29,7 +29,7 @@
 //Galeria de img
 
 #contenedorCasas{
-	background-color: $color-gris;
+	background-color: map-get($map: $paleta-bg , $key:'gris');
 	height: 100%;
 	padding-top: $padding-xl;
 }

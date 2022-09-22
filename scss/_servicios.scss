@@ -7,7 +7,7 @@
 	flex-direction: column;
 	align-content: center;
 	padding: 100px;
-	background-color: $color-gris;
+	background-color: map-get($map: $paleta-bg , $key:'gris');
 
 }
 
@@ -50,7 +50,7 @@
 }
 
 #contenedorCotizar{
-	background-color: $color-nav;
+	background-color: map-get($map: $paleta-bg , $key:'blanco');
 	width: 100%;
 	height: 100%;
 	padding: 50px;

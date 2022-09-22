@@ -39,7 +39,29 @@
 //MAPAS
 
 //Mapa background color
-$paleta-bg:(
-    'gris': rgb(30, 30, 30);
 
+$paleta-bg:(
+    'gris': rgba(30, 30, 30, 1.0),
+    'nav': rgba(230, 230, 230, 0.8),
+    'negro': rgba(0, 0, 0, 1.0),
+    'blanco':rgba(255, 255, 255, 1.0),
+    'titulos': rgba(22, 11, 7, 1.0),
+);
+
+//Mapa color texto
+
+$paleta-tx:(
+    'uno': #af40f6,
+    'dos': #df1ce6,
+    'tres':#bb20c1,
+    'cuatro':#ecdde9,
+    'cinco': #9b9a9b,
+    'seis': #292829,
+    'siete':#e205bb,
+    'ocho':#dfa1d4,
+    'nueve':#bd9eb8,
+    'diez':#e7cfe3,
+    'once': #6e646c,
+    'doce': #7f3472,
+    'trece':#3f393e,
 );

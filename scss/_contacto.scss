@@ -2,7 +2,7 @@
 
 #contenedorContacto{
 	padding: 50px 10px 50px;
-	background-color: $color-gris;
+	background-color: map-get($map: $paleta-bg , $key:'gris');
 	width: 100%;
 	justify-content: space-evenly;
 	align-content: center;
@@ -10,7 +10,7 @@
 
 .paddingContacto{
 	padding: 100px 50px;
-	background-color: $color-gris;
+	background-color: map-get($map: $paleta-bg , $key:'gris');
 }
 
 //Formulario boostrap
@@ -70,7 +70,7 @@ padding: 20px 0px;
 
 #contenedorTestimonios{
 	width: 100%;
-	background-color: $color-white;
+	background-color: map-get($map: $paleta-bg , $key:'blanco');
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;

@@ -2,7 +2,7 @@
 
 #contenedorSN{
 	@include flex(row,space-evenly,center,wrap);
-	background-color: $color-nav;
+	background-color: map-get($map: $paleta-bg , $key:'nav');
 	height: 860px;
 	padding: 50px;
 }
@@ -43,7 +43,7 @@ div{
 	@include flex(column,center,center,wrap);
 	padding: 300px 50px;
 	height: 100%;
-	background-color: $color-gris;
+	background-color: map-get($map: $paleta-bg , $key:'gris');
 }
 
 section{
