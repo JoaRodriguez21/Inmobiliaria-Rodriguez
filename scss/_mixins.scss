@@ -25,7 +25,7 @@
     justify-content: space-evenly;
 }
 
-//mixins
+//MIXINS
 
 @mixin flex($FD,$JC,$AC,$FW){
     display: flex;
@@ -35,3 +35,11 @@
     flex-wrap: $FW;
 }
 //@include flex(FD,JC,AC,FW);
+
+//MAPAS
+
+//Mapa background color
+$paleta-bg:(
+    'gris': rgb(30, 30, 30);
+
+);
