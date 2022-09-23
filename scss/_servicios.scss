@@ -66,9 +66,10 @@
 	padding: 20px;
 }
 
-.modelingCards{
-	padding: 20px 10px;
-	margin: 10px 0px;
+.cardBody{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .imgServicios{
@@ -84,5 +85,21 @@
 
 .cardsServicios{
 	@include flex(row,space-evenly,center,wrap);
+	padding-top: 50px;
+}
+
+.cardTitulo{
+	text-align: center;
+	font-size: $text-big;
+	font-family: $font-principal;
+	color: $color-title;
+}
+
+.cardText{
+	text-align: center;
+	font-size: $text-mid;
+	font-family: $font-principal;
+	color: $color-title;
+	align-content: center;
 }
 
