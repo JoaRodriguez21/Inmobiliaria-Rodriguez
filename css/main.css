@@ -359,7 +359,7 @@ footer div ul li a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-content: none;
   flex-wrap: wrap;
 }
 
@@ -368,9 +368,7 @@ footer div ul li a {
   font-size: 3rem;
   font-family: "Libre Baskerville", serif;
   color: rgb(22, 11, 7);
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  padding: 50px 100px;
+  padding: 50px;
   margin: 30px;
 }
 
@@ -378,6 +376,14 @@ footer div ul li a {
   font-family: "Lato", sans-serif;
   font-size: 1.8rem;
   color: rgb(22, 11, 7);
+}
+
+.formData {
+  padding: 10px 30px;
+}
+
+.formdiv {
+  width: 99%;
 }
 
 .sectionAsesoria {

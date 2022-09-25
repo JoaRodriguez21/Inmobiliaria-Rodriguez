@@ -138,7 +138,7 @@
 	height: 100%;
 	padding: 100px;
 	background-color: $color-white;
-	@include flex(column,center,center,wrap);
+	@include flex(column,center,none,wrap);
 }
 
 .tituloData{
@@ -146,9 +146,7 @@
 	font-size: $text-subtitle;
 	font-family: $font-title;
 	color: $color-title;
-	border-bottom-style: solid;
-	border-bottom-width: 2px;
-	padding: 50px 100px;
+	padding: 50px;
 	margin: 30px
 }
 
@@ -156,6 +154,15 @@
 	font-family: $font-principal;
 	font-size: $text-mid;
 	color: $color-title;
+}
+
+.formData{
+	padding: 10px 30px;
+	
+}
+
+.formdiv{
+	width: 99%;
 }
 
 //Sectión Asesoria
