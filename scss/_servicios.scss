@@ -28,7 +28,7 @@
 	color: $color-white;
 	border-bottom-style: solid;
 	border-bottom-width: 2px;
-	margin: 0px 10pxpx;
+	margin: 0px 10px;
 	text-align: center;
 	padding-bottom: 10px;
 }
@@ -103,3 +103,83 @@
 	align-content: center;
 }
 
+
+//sección cotizar
+
+.titulosSections{
+	font-family: $font-title;
+	font-size: $text-title;
+	color: $color-title;
+	text-align: center;
+	background-color: $color-nav;
+}
+
+.textSections{
+	font-family: $font-principal;
+	font-size: $text-big;
+	color: $color-title;
+	text-align: center;
+	background-color: $color-nav;
+}
+
+.sectionCotizar{
+	background-image: url(../img/servicios/bg-cotizar.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 860px;
+	padding: 50px;
+	@include flex(column,center,start,wrap);
+}
+
+.sectionCotizarData{
+	width: 100%;
+	height: 100%;
+	padding: 100px;
+	background-color: $color-white;
+	@include flex(column,center,center,wrap);
+}
+
+.tituloData{
+	text-align: center;
+	font-size: $text-subtitle;
+	font-family: $font-title;
+	color: $color-title;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	padding: 50px 100px;
+	margin: 30px
+}
+
+.textData{
+	font-family: $font-principal;
+	font-size: $text-mid;
+	color: $color-title;
+}
+
+//Sectión Asesoria
+
+.sectionAsesoria{
+	background-image: url(../img/servicios/bg-asesoria.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 860px;
+	padding: 50px;
+	@include flex(column,center,center,flex-wrap);
+}
+
+//Sectión Seguros
+
+.sectionSeguros{
+	background-image: url(../img/servicios/bg-seguro.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 860px;
+	padding: 50px;
+	@include flex(column,center,center,flex-wrap);
+}
