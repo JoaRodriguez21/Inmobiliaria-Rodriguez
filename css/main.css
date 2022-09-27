@@ -345,6 +345,7 @@ footer div ul li a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   width: 100%;
   height: 860px;
   padding: 50px;
@@ -358,7 +359,7 @@ footer div ul li a {
 .sectionCotizarData {
   width: 100%;
   height: 100%;
-  padding: 100px;
+  padding: 50px;
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
@@ -395,6 +396,7 @@ footer div ul li a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   width: 100%;
   height: 860px;
   padding: 50px;
@@ -402,7 +404,7 @@ footer div ul li a {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  flex-wrap: flex-wrap;
+  flex-wrap: nowrap;
 }
 
 .sectionAsesoriaData {
@@ -425,11 +427,31 @@ footer div ul li a {
   flex-wrap: wrap;
 }
 
+.cardAsesores {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px;
+}
+
+.imgCardAsesores {
+  width: 50%;
+}
+
+.infoCardAsesores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .sectionSeguros {
   background-image: url(../img/servicios/bg-seguro.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   width: 100%;
   height: 860px;
   padding: 50px;
@@ -437,7 +459,50 @@ footer div ul li a {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  flex-wrap: flex-wrap;
+  flex-wrap: wrap;
+}
+
+.sectionSegurosData {
+  width: 100%;
+  padding: 30px;
+  background: linear-gradient(-100deg, white 50%, gray 50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: none;
+  flex-wrap: wrap;
+}
+
+.cardSeguros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: none;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.tituloCardSeguros {
+  color: rgb(22, 11, 7);
+  font-family: "Libre Baskerville", serif;
+  font-size: 3rem;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+  padding: 30px;
+}
+
+.textCardSeguros {
+  color: rgb(22, 11, 7);
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+}
+
+.p-3 {
+  padding: 100px 0px !important;
+}
+
+.btnCardSeguros {
+  font-size: 1.8rem;
 }
 
 .contenedorCA {

@@ -36,6 +36,13 @@
 }
 //@include flex(FD,JC,AC,FW);
 
+@mixin text($color,$fuente ,$size){
+    color: $color;
+    font-family: $fuente;
+    font-size: $size;
+}
+//@include text($color, $fuente, $size);
+
 //MAPAS
 
 //Mapa background color
