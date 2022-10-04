@@ -1,42 +1,3 @@
-//Contenedor
-
-#contenedorFooter{
-    @include flex(row,center ,center ,wrap );
-    position: absolute;
-	width: 100%;
-	padding: 80px 10px 0px 10px;
-	height: 50%;
-	background-color: map-get($map: $paleta-bg , $key:'gris');
-}
-
-#contenedorRedes{
-	@include flex(row,center,center,wrap);
-	padding: 30px;
-}
-
-#contenedorUlFooter{
-	display: flex;
-	justify-content: center;
-}
-
-//CLASES
-
-
-.textRedes{
-	font-size: $text-big;
-	font-family: $font-principal;
-	color: $color-white;
-}
-
-.asideFooter{
-	@include flex(column,center,center,wrap);
-}
-
-.asideImg{
-	height: 60px;
-	width: 95px;
-}
-
 //BOX MODELING
 
 footer{
@@ -46,10 +7,7 @@ footer{
 	background-size: cover;
 	border-style: solid;
 	border-top: 2px;
-	
-	width: 100%;
-	position: absolute;
-	height: 100%;
+
     
 }
 
@@ -72,7 +30,7 @@ footer{
             li{
                 a{
                     text-decoration: none;
-	                font-size: $text-big;
+	                font-size: $text-mid;
 	                font-family: $font-principal;
 	                color: $color-white;
                 }
@@ -80,3 +38,28 @@ footer{
         }
     }
 }
+
+//contenedor
+
+#contenedorFooter{
+	padding: 50px 20px;
+}
+
+//clases
+
+.titulosFooter{
+	font-size: $text-big;
+	color: $color-white;
+}
+
+.infoFooter{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.paddingCopy{
+	padding-top: 100px;
+}
+

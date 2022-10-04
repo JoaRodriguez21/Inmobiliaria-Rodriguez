@@ -63,3 +63,15 @@
 	width: 500px;
 	padding: 20px;
 }
+
+//Section comprar
+
+.contenedorVenta{
+	width: 100%;
+	padding: 50px;
+}
+
+.flexCaracteristicas{
+	@include flex(column,center,center,wrap);
+	
+}

@@ -1,3 +1,6 @@
+.bodyColor404{
+    background-color: rgba(30, 30, 30, 1.0);
+}
 
 #contenedor404{
     width: 100%;
@@ -5,14 +8,21 @@
     margin: 100px 0px;
     display: flex;
     flex-direction: column;
-    justify-content: center
-    
+    justify-content: center;
 }
 
 
 //Clases
 
 .titulo404{
-    @include text($color-title, $font-title, $text-title);
+    @include text($color-white, $font-title, $text-title);
     text-align: center;
+    font-size: 9rem !important;
+}
+
+.text404{
+    @include text($color-white, $font-principal, $text-subtitle);
+}
+.button404{
+    font-size: 2rem;
 }
