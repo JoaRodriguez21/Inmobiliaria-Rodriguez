@@ -18,7 +18,7 @@
 
 <!-- CIERRA HEAD -->
 
-<body background="../img/fondo.png">
+<body>
 
     <!-- NAV BOOSTRAP -->
 
@@ -54,40 +54,37 @@
     <!-- MAIN CONTACTO -->
 
     <main>
-    <div class="paddingContacto">
         <section id="contenedorContacto" class="row">
 
                 <!-- FORMULARIO DE CONTACTO BOOSTRAP-->
 
-            <div class="formContacto col-xs-12 col-sm-12 col-md-12 col-lg-5">
-            <form class="card " 
-                    data-aos="fade-up"
+            <div class="formContacto col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-up"
                     data-aos-duration="800">
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label textForm">Correo electronico</label>
-                  <input type="email" class="form-control " id="exampleFormControlInput1" placeholder="nombre@gmail.com">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label textForm">Nombre</label>
-                    <div class="mb-3">
-                      <label for="exampleFormControlTextarea1" class="form-label "></label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Nombre..." rows="2"></textarea>
+                <form class="card">
+                    <div class="mb-3 flexFormContact">
+                          <label for="exampleFormControlInput1" class="form-label textForm">Nombre</label>
+                          <input type="email" class="form-control textData" id="exampleFormControlInput1" placeholder="Nombre...">
+                        </div>
+                    <div class="mb-3 flexFormContact">
+                          <label for="exampleFormControlInput1" class="form-label textForm">Email</label>
+                          <input type="email" class="form-control textData" id="exampleFormControlInput1" placeholder="nombre@gmail.com">
+                        </div>
+                        <div class="mb-3 flexFormContact">
+                          <label for="exampleFormControlTextarea1" class="form-label textForm">Mensaje</label>
+                          <textarea class="form-control textData" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label textForm">Su mensaje:</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-            </form>
+                    <a href="../pages/gracias.html"><button type="button" class="textData btn btn-outline-dark p-4">Enviar</button>
+                </form></a>
             </div>
+
 
             <!-- TEXTO DE INFORMACIÓN -->
 
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 textInfo">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 textInfo">
                 <div 
                     data-aos="fade-up"
                     data-aos-duration="800">
-                <h2 class="tituloP">¡Escribinos! ¡te ayudaremos a encontrar tu vivienda ideal!</h2>
+                <h1 class="tituloP">¡Escribinos! ¡te ayudaremos a encontrar tu vivienda ideal!</h1>
                 </div>
                 <div 
                     data-aos="fade-up"
@@ -98,37 +95,68 @@
                 </div>
             </div>
         </section>
-    </div>
 
     <!-- TESTIMONIOS -->
 
-    <section id="contenedorTestimonios">
-        <div  data-aos="fade-right" data-aos-duration="1500">
-            <h2 class="tituloTestimonio">Testimonios de nuestros clientes</h2>
+    <section class="sectionTestimonios">
+        <div>
+            <h2 class="tituloTestimonio">¡Testimonios de nuestros clientes!</h2>
         </div>
-        <article id="contenedorCards" class="row">
-            <div class="col-xs-12 col-md-12 col-lg-3 col-xl-3 card cardTestimonios shadow-lg mb-5 bg-body rounded">
-              <img class="imgTestimonios" src="../img/testimonios/mujer-ana.jpg" class="card-img-top" alt="Testimonio Ana Romeo">
-                <div class="card-body">
-                    <h3>Ana Romeo</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div id="contenedorTestimonios">
+            <div class="card card-cascade wider m-4 col-sm-10 col-md-6 col-lg-4 col-xl-3">
+              <div class="view view-cascade overlay">
+                <img class="card-img-top imgTestimonios" src="../img/testimonios/hombre-alfonso.jpg" alt="testimonio de alfonso">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <div class="card-body card-body-cascade text-center pb-0 contenedorCards">
+                <h3 class="card-title"><strong>Alfonso Suarez</strong></h4>
+                <p class="card-text">Compré mi segunda propiedad con la excelente asesoría de la inmobiliaria! </p>
+                <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
+                <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
+                <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
+                <div class="card-footer text-muted text-center mt-4">
+                  2 dias atras.
                 </div>
+              </div>
             </div>
-            <div class="col-xs-12 col-md-12 col-lg-3 col-xl-3 card cardTestimonios shadow-lg mb-5 bg-body rounded">
-                <img class="imgTestimonios" src="../img/testimonios/hombre-alfonso.jpg" class="card-img-top" alt="Testimonio Alfonso Suarez">
-                  <div class="card-body">
-                    <h3>Alfonso Suarez</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
+
+            <div class="card card-cascade wider m-4 col-sm-10 col-md-6 col-lg-4 col-xl-3">
+              <div class="view view-cascade overlay">
+                <img class="card-img-top imgTestimonios" src="../img/testimonios/mujer-ana.jpg" alt="testimonio de alfonso">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <div class="card-body card-body-cascade text-center pb-0 contenedorCards">
+                <h3 class="card-title"><strong>Ana Romero</strong></h4>
+                <p class="card-text">Perfecta asesoria! me ayudaron a encontrar mi primer departamento. </p>
+                <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
+                <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
+                <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
+                <div class="card-footer text-muted text-center mt-4">
+                  15 dias atras.
+                </div>
+              </div>
             </div>
-            <div class="col-xs-12 col-md-12 col-lg-3 col-xl-3 card cardTestimonios shadow-lg mb-5 bg-body rounded">
-                <img class="imgTestimonios" src="../img/testimonios/mujer-rebeca.jpg" class="card-img-top" alt="Testimonio Alfonso Suarez">
-                  <div class="card-body">
-                    <h3>Alfonso Suarez</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                 </div>
+
+            <div class="card card-cascade wider m-4 col-sm-10 col-md-12 col-lg-4 col-xl-3">
+              <div class="view view-cascade overlay">
+                <img class="card-img-top imgTestimonios" src="../img/testimonios/mujer-rebeca.jpg" alt="testimonio de Alison Belmont">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <div class="card-body card-body-cascade text-center pb-0 contenedorCards">
+                <h3 class="card-title"><strong>Alison Belmont</strong></h4>
+                <p class="card-text">Super conforme, tengo mi oficina funcionando gracias a la empresa! </p>
+                <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
+                <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
+                <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
+                <div class="card-footer text-muted text-center mt-4">
+                  7 dias atras.
+                </div>
+              </div>
             </div>
-        </article>
+        </div>
     </section>
     </main>
 

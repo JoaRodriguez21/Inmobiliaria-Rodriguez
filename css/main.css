@@ -42,7 +42,7 @@ h5 {
 
 p {
   font-family: "Lato", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: rgb(0, 0, 0);
 }
 
@@ -577,11 +577,13 @@ footer div ul li a {
 }
 
 #contenedorContacto {
-  padding: 50px 10px 50px;
+  padding: 100px 50px;
   background-color: rgb(30, 30, 30);
-  width: 100%;
-  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-content: center;
+  flex-wrap: flex-wrap;
 }
 
 .paddingContacto {
@@ -593,11 +595,20 @@ footer div ul li a {
   padding-top: 100px;
 }
 
+.flexFormContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: flex-wrap;
+}
+
 .textForm {
   font-family: "Libre Baskerville", serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: rgb(22, 11, 7);
-  padding: 20px;
+  padding: 30px 20px;
+  text-align: center;
 }
 
 .textInfo {
@@ -614,6 +625,9 @@ footer div ul li a {
   font-size: 4.5rem;
   color: rgba(230, 230, 230, 0.8);
   padding-bottom: 20px;
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
 }
 
 .tituloS {
@@ -642,21 +656,25 @@ footer div ul li a {
   align-content: center;
 }
 
-#contenedorTestimonios {
-  width: 100%;
-  background-color: rgb(255, 255, 255);
+.sectionTestimonios {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  padding: 100px 0px 100px 0px;
-  width: 100%;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
-#contenedorCards {
+#contenedorTestimonios {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  padding: 100px 50px;
+}
+
+.contenedorCards {
   padding: 10px;
 }
 
@@ -665,9 +683,10 @@ footer div ul li a {
   font-size: 3rem;
   font-family: "Libre Baskerville", serif;
   color: rgb(22, 11, 7);
-  padding: 100px;
+  padding: 80px 100px 20px 100px;
   text-align: center;
-  border-bottom: 2px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
 }
 
 .cardTestimonios {
@@ -681,9 +700,7 @@ footer div ul li a {
 }
 
 .imgTestimonios {
-  width: 300px;
-  height: 300px;
-  justify-content: center;
+  height: 350px;
 }
 
 #contenedorSN {
