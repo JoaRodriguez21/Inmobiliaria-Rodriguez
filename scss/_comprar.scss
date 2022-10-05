@@ -66,12 +66,21 @@
 
 //Section comprar
 
-.contenedorVenta{
+.contenedorVentas{
 	width: 100%;
-	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 100px 10px;
 }
 
 .flexCaracteristicas{
 	@include flex(column,center,center,wrap);
-	
+	width: 100%;
+	padding: 40px 10px;
+	gap: 1.5rem;
+}
+
+.flexCardsVentas{
+	@include flex(row,center,center,wrap);
 }

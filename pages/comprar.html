@@ -106,7 +106,7 @@
 
             <!-- GALERIA DE IMG CON BOOSTRAP -->
             
-<section id="contenedorCasas" class="bg-dark.bg-gradient">
+<!-- <section id="contenedorCasas" class="bg-dark.bg-gradient">
     <div>
         <h2 class="tituloGaleria">Algunas de nuestras mejores propiedades</h2>
     </div>
@@ -131,19 +131,22 @@
         </div>
 
     </div>
-</section>
+</section> -->
 
 <!-- CIERRA GALERIA -->
 
 <!-- ABRE CARDS -->
 
 <section class="contenedorVentas">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 p-5">
-        <div class="d-flex align-items-center justify-content-center vh-100 flex-column gap-4 shadow-lg">
+    <div class="col-sm-12 col-md-12 col-lg-4 p-5">
+        <div class="flexCaracteristicas shadow-lg">
             <form class="d-flex pb-5">
               <button class="btn btn-outline-primary me-1 textData" type="submit">Buscar</button>
               <input class="form-control textData" type="search" placeholder="casas, deptos, ofi..." aria-label="Search">
             </form>
+            <div>
+                <h2 class="card-title">Caracteristicas</h2>
+            </div>
             <div class="col-md-8 pb-5">
               <label for="customRange1" class="form-label textData">Rango de precio</label>
               <input type="range" class="form-range" id="customRange1">
@@ -153,7 +156,7 @@
               <button class="btn btn-secondary dropdown-toggle textData" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                 Propiedad
               </button>
-              <ul class="dropdown-menu textData" aria-labelledby="dropdownMenuButton1">
+              <ul class="dropdown-menu textData p-2" aria-labelledby="dropdownMenuButton1">
                 <div class="form-check">
               <input class="form-check-input textData" type="checkbox" value="" id="flexCheckDefault">
               <label class="form-check-label textData" for="flexCheckDefault">
@@ -176,35 +179,52 @@
             </div>
         <div class="dropdown ">
               <button class="btn btn-secondary dropdown-toggle textData" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Propiedad
+                Provincia
               </button>
-              <ul class="dropdown-menu textData" aria-labelledby="dropdownMenuButton1">
+              <ul class="dropdown-menu textData p-2" aria-labelledby="dropdownMenuButton1">
                 <div class="form-check">
               <input class="form-check-input textData" type="checkbox" value="" id="flexCheckDefault">
               <label class="form-check-label textData" for="flexCheckDefault">
-                Casas
+                Mendoza
               </label>
             </div>
             <div class="form-check">
               <input class="form-check-input textData" type="checkbox" value="" id="flexCheckDefault">
               <label class="form-check-label textData" for="flexCheckDefault">
-                Oficinas
+                Cordoba
               </label>
             </div>
             <div class="form-check">
               <input class="form-check-input textData" type="checkbox" value="" id="flexCheckDefault">
               <label class="form-check-label textData" for="flexCheckDefault">
-                Departamentos
+                San Luis
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input textData" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label textData" for="flexCheckDefault">
+                San Juan
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input textData" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label textData" for="flexCheckDefault">
+                Buenos Aires
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input textData" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label textData" for="flexCheckDefault">
+                Santa Fe
               </label>
             </div>
               </ul>
         </div>
-
         <div class="dropdown ">
               <button class="btn btn-secondary dropdown-toggle textData" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                 habitaciones
               </button>
-              <ul class="dropdown-menu textData" aria-labelledby="dropdownMenuButton1">
+              <ul class="dropdown-menu textData p-2" aria-labelledby="dropdownMenuButton1">
                 <div class="form-check">
               <input class="form-check-input textData" type="checkbox" value="" id="flexCheckDefault">
               <label class="form-check-label textData" for="flexCheckDefault">
@@ -234,10 +254,102 @@
 
       </div>
     </div>
+<div class="flexCardsVentas col-xs-12 col-sm-12 col-md-12 col-lg-8">
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-        
+    <div class="card m-3 col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-3">
+      <div class="view overlay">
+        <img class="card-img-top" src="../img/imgcarrusel/casa2.png"
+          alt="Card image cap">
+        <a>
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <div class="card-body elegant-color white-text rounded-bottom">
+        <a class="activator waves-effect mr-4"><i class="fas fa-share-alt white-text"></i></a>
+        <h2 class="card-title textData">Casa Mendoza</h4>
+        <hr class="hr-light">
+        <p class="card-text white-text mb-4 textData">Lujosa casa ubicada en el centro de Mendoza.</p>
+        <a href="../pages/404.html" class="white-text d-flex justify-content-end textData"><button type="button" class="btn btn-outline-dark textData">Más info</button></a>
+      </div>
     </div>
+
+    <div class="card m-3 col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-3">
+      <div class="view overlay">
+        <img class="card-img-top" src="../img/imgcarrusel/depto2.png"
+          alt="Card image cap">
+        <a>
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <div class="card-body elegant-color white-text rounded-bottom">
+        <a class="activator waves-effect mr-4"><i class="fas fa-share-alt white-text"></i></a>
+        <h2 class="card-title textData">Departamento San Juan</h4>
+        <hr class="hr-light">
+        <p class="card-text white-text mb-4 textData">Ubicado en las cercanias del aeropuerto de San Juan</p>
+        <a href="../pages/404.html" class="white-text d-flex justify-content-end textData"><button type="button" class="btn btn-outline-dark textData">Más info</button></a>
+      </div>
+    </div>
+
+    <div class="card m-3 col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-3">
+      <div class="view overlay">
+        <img class="card-img-top" src="../img/imgcarrusel/ofi1.png"
+          alt="Card image cap">
+        <a>
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <div class="card-body elegant-color white-text rounded-bottom">
+        <a class="activator waves-effect mr-4"><i class="fas fa-share-alt white-text"></i></a>
+        <h2 class="card-title textData">Oficina en Tigre</h4>
+        <hr class="hr-light">
+        <p class="card-text white-text mb-4 textData">Oficina con excelente ubicación</p>
+        <a href="../pages/404.html" class="white-text d-flex justify-content-end textData"><button type="button" class="btn btn-outline-dark textData">Más info</button></a>
+      </div>
+    </div>
+
+    <div class="card m-3 col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-3">
+      <div class="view overlay">
+        <img class="card-img-top" src="../img/imgcarrusel/casa3.png"
+          alt="Card image cap">
+        <a>
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <div class="card-body elegant-color white-text rounded-bottom">
+        <a class="activator waves-effect mr-4"><i class="fas fa-share-alt white-text"></i></a>
+        <h2 class="card-title textData">Propiedad en barrio privado</h4>
+        <hr class="hr-light">
+        <p class="card-text white-text mb-4 textData">Se encuentra en el barrio Nordelta</p>
+        <a href="../pages/404.html" class="white-text d-flex justify-content-end textData"><button type="button" class="btn btn-outline-dark textData">Más info</button></a>
+      </div>
+    </div>
+
+    <div class="card m-3 col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-3">
+      <div class="view overlay">
+        <img class="card-img-top" src="../img/imgcarrusel/ofi3.png"
+          alt="Card image cap">
+        <a>
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <div class="card-body elegant-color white-text rounded-bottom">
+        <a class="activator waves-effect mr-4"><i class="fas fa-share-alt white-text"></i></a>
+        <h2 class="card-title textData">Oficina Moderna</h4>
+        <hr class="hr-light">
+        <p class="card-text white-text mb-4 textData">Ideal para abogados, escribanos, etc.</p>
+        <a href="../pages/404.html" class="white-text d-flex justify-content-end textData"><button type="button" class="btn btn-outline-dark textData">Más info</button></a>
+      </div>
+    </div>
+    <div class="flexCardsVentas m-3 col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-3">
+        <div class="text-center">
+          <div class="spinner-border" role="status">
+            <span class="sr-only"></span>
+          </div>
+        </div>
+    </div>  
+   </div>
+</div>
+
 
 </section>
 
