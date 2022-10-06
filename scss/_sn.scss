@@ -2,14 +2,15 @@
 
 #contenedorSN{
 	@include flex(row,space-evenly,center,wrap);
-	background-color: map-get($map: $paleta-bg , $key:'nav');
-	height: 860px;
-	padding: 50px;
+	background: linear-gradient(-100deg,white 50%, gray 50%);
+	padding: 250px 50px;
 }
 
 .imgSN{
 	height: 300px;
 	width: 500px;
+    border-style: double;
+    border-width: 8px;
 }
 
 .flexSN{
@@ -17,17 +18,15 @@
 	padding: 50px 10px;
 }
 	
-div{
-    h4{
-        text-align: center;
-        font-size: $text-title;
-        font-family: $font-title;
-        color: $color-title;
-        border-bottom-style: solid;
-        border-bottom-width: 2px;
-        padding: 10px 20px;
-        margin-bottom: 30px;
-    }
+.tituloSN{
+    text-align: center;
+    font-size: $text-title;
+    font-family: $font-title;
+    color: $color-title;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
 }
 
 .textSN{
@@ -40,26 +39,31 @@ div{
 //MAPA
 
 #contenedorMapa{
-	@include flex(column,center,center,wrap);
+	@include flex(row,center,center,wrap);
 	padding: 300px 50px;
 	height: 100%;
 	background-color: map-get($map: $paleta-bg , $key:'gris');
 }
 
-section{
-    div{
-        h5{
-            font-size: $text-title;
-            font-family: $font-title;
-            color: $color-nav;
-            border-bottom-style: solid;
-            border-bottom-width: 2px;
-            margin-bottom: 30px;  
-        }
-    }
+.sectionMapa{
+    @include flex(row, center, center, wrap);
+    padding: 100px 50px;
+
 }
 
+.tituloMapa{
+    font-size: $text-title;
+    font-family: $font-title;
+    color: $color-nav;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-bottom: 30px; 
+    text-align: center; 
+}
 
+.iframeMapa{
+    width: 100%;
+}
 
 
 
